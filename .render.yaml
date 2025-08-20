@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: xauusdc-bot
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python XAUUSDc.py
